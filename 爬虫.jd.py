@@ -5,6 +5,7 @@
 # @File : 爬虫.jd.py
 # @Software: PyCharm
 import requests
+
 url = "https://item.jd.com/100028235502.html"
 try:
     r = requests.get(url)
