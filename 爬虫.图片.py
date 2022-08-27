@@ -12,3 +12,4 @@ r = requests.get(url)
 r.status_code
 with open(path,'wb') as f:
     f.write(r.content)
+f.close()
